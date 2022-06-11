@@ -25,6 +25,7 @@
     padding: 5% 12%;
     border-radius: 20px;
     font-family: var(--lexend);
+    font-size: 15px;
 }
 
 .about {

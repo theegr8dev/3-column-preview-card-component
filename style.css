@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@200&display=swap');
+
+:root {
+    --BrightOrange: hsl(31, 77%, 52%);
+    --DarkCyan: hsl(184, 100%, 22%);
+    --VeryDarkCyan: hsl(179, 100%, 13%);
+
+    --TransparentWhite: hsla(0, 0%, 100%, 0.75);
+    --VeryLightGray: hsl(0, 0%, 95%);
+
+    --lexend: 'Lexend Deca', sans-serif;
+    --shoulder: 'Big Shoulders Display', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class^=box] a {
+    text-decoration: none;
+    background-color: var(--VeryLightGray);
+    padding: 5% 12%;
+    border-radius: 20px;
+    font-family: var(--lexend);
+}
+
+.about {
+    margin-top: 50%;
+    margin-bottom: 30%;
+}
+
+.container {
+    width: 1440px;
+}
+
+main {
+    display: flex;
+    margin: 10% 25%;
+}
+
+.content {
+    margin: 15%;
+    width: 70%;
+}
+
+.text h2 {
+    font-family: var(--shoulder);
+    text-transform: uppercase;
+    font-size: 20px;
+    color: var(--VeryLightGray);
+    margin-top: 10%;
+}
+
+.text p {
+    font-family: var(--lexend);
+    font-size: 13px;
+    margin-top: 10%;
+    color: var(--TransparentWhite);
+}
+
+
+.box-1 {
+    background-color: var(--BrightOrange);
+    width: 50%;
+}
+
+.box-2 {
+    background-color: var(--DarkCyan);
+    width: 50%;
+}
+
+.box-3 {
+    background-color: var(--VeryDarkCyan);
+    width: 50%;
+}
+
+.attribution {
+    margin-top: -5%;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
